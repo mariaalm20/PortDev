@@ -5,19 +5,24 @@ import cors from 'cors'
 import { errors } from 'celebrate';
 import cookieSession from 'cookie-session'
 
-
+https://seginfo.com.br/2010/08/20/gerando-certificados-digitais-auto-assinados-com-openssl-2/
 const cookie_secret = "bongocat"
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+  origin: "http://localhost:3000",
+  methods: "GET, POST, HEAD, DELETE, PUT",
+  credentials: true
+}))
+
+app.use(express.json()) 
 
 app.use(
   cookieSession({
     secret: cookie_secret
   })
 )
-app.use(express.json()) 
 
 
 

@@ -11,7 +11,7 @@ export const Ul = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
   list-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   
   @media (max-width: 900px) {
     grid-template-columns: repeat(2, 1fr);
@@ -32,7 +32,7 @@ export const Li = styled.li`
   padding: 0;
   background: #f0f0f5;
   border-radius: 15px 15px 4px 4px;
-  height: 500px;
+  height: 510px;
   margin-top: 60px;
 
   width: 280px;
@@ -106,7 +106,7 @@ export const Description = styled.h1`
 
 export const ImageProject = styled.img`
   width: 100%;
-  height: 180px;
+  height: 170px;
   margin-top: 30px;
 `;
 

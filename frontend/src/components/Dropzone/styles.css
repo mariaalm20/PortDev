@@ -1,0 +1,44 @@
+.dropzone {
+  height: 300px;
+  background: #f5f3fb;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  outline: 0;
+
+  cursor: pointer;
+}
+
+.dropzone img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.dropzone div {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropzone p {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  border-radius: 10px;
+  border: 1px dashed #7159c1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7159c1;
+}
+
+.dropzone p svg {
+  color: #7159c1;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 8px;
+}

@@ -1,4 +1,3 @@
-
 import { Request, Response } from 'express'
 import knex from '../database/connection'
 import fetch from 'node-fetch'

@@ -29,7 +29,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  margin-top: 75px;
+  margin-top: 100px;
   font-size: 40px;
   color: var(--title-color);
 
@@ -76,7 +76,7 @@ export const Button = styled.button`
   align-items: center;
   overflow: hidden;
 
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 50px;
 
   cursor: pointer;

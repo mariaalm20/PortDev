@@ -1,7 +1,6 @@
 import React from 'react'
 
 import {Button} from './styles'
-import image from '../../assets/foto.jpg'
 import Dropdown from "react-bootstrap/Dropdown"
 import { useHistory } from "react-router-dom"
 
@@ -30,7 +29,7 @@ const ServerButton: React.FC<Props> = ({
      className = {selected ? 'active' : ''}
      avatar = {avatar}
     >
-      {isHome ? ( <img src = {image} alt = 'Profile'/>
+      {isHome ? ( <img src = {avatar} alt = 'Profile'/>
        ) : (<img src = {avatar} alt = "Users"/>)}
     </Button>
   )

@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  background-color: rgb(32,34,37);
+  background-color: rgb(32,34,50);
   padding: 11px 0;
   max-height: 100%;
   overflow-y: scroll; 
